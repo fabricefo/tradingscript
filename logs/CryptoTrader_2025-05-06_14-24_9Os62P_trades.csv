@@ -1,0 +1,21 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2025-03-01 00:00:00-05:00,CryptoTrader,52b61950fd974acbbe51391fc6cd53db,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-01 00:00:00-05:00,CryptoTrader,52b61950fd974acbbe51391fc6cd53db,BTC,sell,market,fill,1,gtc,0.0,1,crypto,84309.2,0.2906273831445418,0.0
+2025-03-02 00:00:00-05:00,CryptoTrader,72995bb1cc9240eb98b35fd7d1f22c10,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-02 00:00:00-05:00,CryptoTrader,72995bb1cc9240eb98b35fd7d1f22c10,BTC,sell,market,fill,1,gtc,0.0,1,crypto,86020.8,0.3301229309301846,0.0
+2025-03-03 00:00:00-05:00,CryptoTrader,e58a2e26e811492e8fb6f5f7cbe0099c,BTC,buy,market,new,1,day,0.0,1,crypto,,,
+2025-03-03 00:00:00-05:00,CryptoTrader,2d148b8cb90744d08e4bb3e2c259ecff,BTC,buy,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-03 00:00:00-05:00,CryptoTrader,e58a2e26e811492e8fb6f5f7cbe0099c,BTC,buy,market,fill,1,day,0.0,1,crypto,94285.0,0.6207503140747264,0.0
+2025-03-03 00:00:00-05:00,CryptoTrader,2d148b8cb90744d08e4bb3e2c259ecff,BTC,buy,market,fill,1,gtc,0.0,1,crypto,94285.0,0.44373014470991556,0.0
+2025-03-04 00:00:00-05:00,CryptoTrader,96e4e8dfaa9e4eee8052a7765aa7ca79,BTC,buy,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-04 00:00:00-05:00,CryptoTrader,96e4e8dfaa9e4eee8052a7765aa7ca79,BTC,buy,market,fill,1,gtc,0.0,1,crypto,86144.7,0.1505314061073326,0.0
+2025-03-05 00:00:00-05:00,CryptoTrader,e0f57be9c5f84a6ca6469125ad2a2cfc,BTC,sell,market,new,1,day,0.0,1,crypto,,,
+2025-03-05 00:00:00-05:00,CryptoTrader,302e24dd81ec4d9b83a21df917899113,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-05 00:00:00-05:00,CryptoTrader,e0f57be9c5f84a6ca6469125ad2a2cfc,BTC,sell,market,fill,1,day,0.0,1,crypto,87250.0,0.5942615508172482,0.0
+2025-03-05 00:00:00-05:00,CryptoTrader,302e24dd81ec4d9b83a21df917899113,BTC,sell,market,fill,1,gtc,0.0,1,crypto,87250.0,0.10917063028020167,0.0
+2025-03-07 00:00:00-05:00,CryptoTrader,8b200aa14ec94849bbbec51f0b590888,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-07 00:00:00-05:00,CryptoTrader,8b200aa14ec94849bbbec51f0b590888,BTC,sell,market,fill,1,gtc,0.0,1,crypto,89925.3,0.29085915113049454,0.0
+2025-03-10 01:00:00-04:00,CryptoTrader,98ebb2e3273d4767a50c554d26de3f3c,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-10 01:00:00-04:00,CryptoTrader,98ebb2e3273d4767a50c554d26de3f3c,BTC,sell,market,fill,1,gtc,0.0,1,crypto,80709.9,0.4044678385351873,0.0
+2025-03-12 01:00:00-04:00,CryptoTrader,0ff2de48971444d8964cdc95827d96c1,BTC,sell,market,new,1,gtc,0.0,1,crypto,,,
+2025-03-12 01:00:00-04:00,CryptoTrader,0ff2de48971444d8964cdc95827d96c1,BTC,sell,market,fill,1,gtc,0.0,1,crypto,82900.0,0.4772800882271529,0.0

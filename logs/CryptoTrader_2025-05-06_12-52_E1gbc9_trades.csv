@@ -1,0 +1,5 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2025-05-02 00:00:00-04:00,CryptoTrader,7a16f72749854cda80a6f60d03fc569a,BTC,buy,market,new,1,gtc,0.0,1,crypto,,,
+2025-05-02 00:00:00-04:00,CryptoTrader,7a16f72749854cda80a6f60d03fc569a,BTC,buy,market,fill,1,gtc,0.0,1,crypto,96469.9,0.2579428336774291,0.0
+2025-05-04 00:00:00-04:00,CryptoTrader,635165a1fbb94a399e912cc184c16cd6,BTC,buy,market,new,1,gtc,0.0,1,crypto,,,
+2025-05-04 00:00:00-04:00,CryptoTrader,635165a1fbb94a399e912cc184c16cd6,BTC,buy,market,fill,1,gtc,0.0,1,crypto,95869.9,0.19913523688357485,0.0

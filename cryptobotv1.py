@@ -101,10 +101,23 @@ class CryptoTrader(Strategy):
                     self.submit_order(order)
                     self.last_trade = "sell"
 
+# Charger les dates depuis un fichier de configuration
+def load_config(file_path="config.json"):
+    with open(file_path, "r") as f:
+        config = json.load(f)
+    return config
 
 if __name__ == "__main__":
-    start_date = datetime(2023, 10, 1)
-    end_date = datetime(2024, 11, 1)
+    # Charger la configuration
+    config = load_config()
+
+    # Lire les dates depuis la configuration
+    start_date = datetime.strptime(config["start_date"], "%Y-%m-%d")
+    end_date = datetime.strptime(config["end_date"], "%Y-%m-%d")
+
+    coin = config["coin"]
+    benchmark_asset = f"{coin}/USD"
+
     exchange_id = "kraken"
     kwargs = {
         "exchange_id": exchange_id,
@@ -115,8 +128,8 @@ if __name__ == "__main__":
         CcxtBacktesting,
         start_date,
         end_date,
-        benchmark_asset="BTC/USD",
+        benchmark_asset,
         quote_asset=Asset(symbol="USD", asset_type="crypto"),
-        parameters={"cash_at_risk": 0.25, "coin": "BTC"},
+        parameters={"cash_at_risk": 0.25, "coin": coin},
         **kwargs,
     )
